@@ -3,3 +3,7 @@ export interface User {
     password: string;
 
 }
+
+export interface FbAuthRespone {
+    idToken: string
+}
